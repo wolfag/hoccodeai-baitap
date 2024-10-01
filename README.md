@@ -1,37 +1,42 @@
-# How to Submit Your Exercises
+# Cách làm và bài tập của bạn
 
-To submit your exercises for review, please follow these steps:
+Để nộp bài tập các bạn hãy làm theo các bước sau nhé:
 
-1. Find the corresponding exercise in the "exercises" folder of this repository.
+1. Tìm bài tập tương ứng trong thư mục "exercises" của repo (Hoặc theo link mình để trong bài giảng).
 
-2. Make sure you have the latest version of this repository:
-   ```
-   git pull origin main
-   ```
+2. Bấm `fork` để fork repo này về tài khoản cá nhân của bạn.
 
-3. Create a new folder with your name (e.g., "john-doe") inside the specific exercise folder. Complete the exercise within your named folder.
+3. Pull code mới nhất về máy:
 
-4. Commit your code changes:
-   ```
-   git add .
-   git commit -m "Completed exercise [exercise name]"
-   ```
+```
+git clone https://github.com/[account]/hoccodeai-excerise.git
+```
 
-5. Push your changes to your fork of the repository:
-   ```
-   git push origin main
-   ```
+4. Trong thư mục "submit", tạo thư mục mới với tên của bạn (ví dụ: "hoang-cute"). Tạo thư mục mới cho mỗi bài tập cụ thể. Viết code để làm bài trong thư mục đó.
 
-6. Create a Pull Request (PR) on GitHub:
-   - Go to the original repository on GitHub
-   - Click on "Pull requests" and then "New pull request"
-   - Select your fork and the branch containing your changes
-   - Click "Create pull request"
-   - Add a title and description for your PR
-   - Submit the PR for review
+5. Commit các thay đổi vào code. Nếu được thì ghi commit message rõ ràng.
 
-Our team will review your submission and provide feedback through the PR comments. Make sure to check your PR regularly for any questions or suggestions.
+```
+git add .
+git commit -m "Đã hoàn thành bài tập [tên bài tập]"
+```
 
-If you need any help with this process, please don't hesitate to ask in our Discord channel or Facebook group.
+7. Push thay đổi của bạn lên repo bên account của bạn
 
-Happy coding!
+```
+git push origin main
+```
+
+9. Tạo Pull Request (PR) trên GitHub:
+- Vào account của bạn trên Github
+- Nhấp vào "Pull requests" và sau đó "New pull request"
+- Chọn bản fork của bạn và nhánh chứa các thay đổi của bạn
+- Nhấp "Create pull request"
+- Thêm tiêu đề và mô tả cho PR của bạn
+- Gửi PR để được xem xét
+
+Team mình sẽ review/góp ý cũng như chấm bài cho bạn vào cuối tuần. 
+Nhớ kiểm tra PR thường xuyên để xem có câu hỏi hoặc gợi ý nào không nhé.
+
+Nếu bạn cần giúp đỡ với quá trình này, đừng ngần ngại hỏi trong kênh Discord hoặc nhóm Facebook nha.
+Chúc bạn code vui vẻ!
