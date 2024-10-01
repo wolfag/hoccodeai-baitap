@@ -2,7 +2,7 @@
 
 Để nộp bài tập các bạn hãy làm theo các bước sau nhé:
 
-1. Tìm bài tập tương ứng trong thư mục "exercises" của repo (Hoặc theo link mình để trong bài giảng).
+1. Tìm bài tập tương ứng trong thư mục "baitap" của repo (Hoặc theo link mình để trong bài giảng).
 
 2. Bấm `fork` để fork repo này về tài khoản cá nhân của bạn.
 
@@ -12,7 +12,7 @@
 git clone https://github.com/[account]/hoccodeai-excerise.git
 ```
 
-4. Trong thư mục "submit", tạo thư mục mới với tên của bạn (ví dụ: "hoang-cute"). Tạo thư mục mới cho mỗi bài tập cụ thể. Viết code để làm bài trong thư mục đó.
+4. Trong thư mục "baitap-submit", tạo thư mục mới với tên của bạn (ví dụ: "hoang-cute"). Tạo thư mục mới cho mỗi bài tập cụ thể. Viết code để làm bài trong thư mục đó.
 
 5. Commit các thay đổi vào code. Nếu được thì ghi commit message rõ ràng.
 
