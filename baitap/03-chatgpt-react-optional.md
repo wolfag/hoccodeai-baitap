@@ -1,4 +1,4 @@
-# Đề bài
+# Đề bài (Đây là bài Bonus cho các bạn biết React và Front-end, bạn có thể bỏ qua)
 
 1. Đọc thêm tài liệu về OpenAI JS SDK tại <https://www.npmjs.com/package/openai>.
 
