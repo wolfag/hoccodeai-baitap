@@ -14,7 +14,7 @@
 
     ![Fork](./images/fork-2.jpg)
 
-3. Pull code mới nhất về máy:
+3. Pull code mới nhất về máy. Hoặc đổi tên miền thành github.dev để code trực tiếp trên web.
 
     ```
     git clone https://github.com/[account]/hoccodeai-excerise.git
@@ -22,10 +22,12 @@
 
     ![Clone](./images/clone-1.jpg)
 
+
+
 ## 2. Làm bài và commit
 
-1. Trong thư mục `baitap-submit`, copy thư mục `ten_cua_ban`, đổi tên thành tên của bạn.
-2. Trong thư mục vừa tạo có thư mục tương đương với tên bài tập.
+1. Trong thư mục `baitap-submit`, đổi thư mục `ten_cua_ban`, đổi tên thành tên của bạn.
+2. Trong thư mục vừa đổi, sẽ có thư mục tương đương với tên từng bài tập.
 3. Viết code để làm bài trong thư mục đó.
 
     ![Clone](./images/clone-2.jpg)
