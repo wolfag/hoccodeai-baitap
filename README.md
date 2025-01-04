@@ -24,7 +24,7 @@
 
 ## 2. Làm bài và commit
 
-1. Trong thư mục `baitap-submit`, copy thư mục `toidicodedao`, đổi tên thành tên của bạn.
+1. Trong thư mục `baitap-submit`, copy thư mục `ten_cua_ban`, đổi tên thành tên của bạn.
 2. Trong thư mục vừa tạo có thư mục tương đương với tên bài tập.
 3. Viết code để làm bài trong thư mục đó.
 
