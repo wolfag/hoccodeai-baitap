@@ -22,11 +22,11 @@
 
    ![Clone](./images/clone-1.jpg)
 
-    Hoặc bạn cũng có thể đổi tên miền thành github.dev để code trực tiếp trên web `https://github.com/[account]/hoccodeai-excerise`
+   Hoặc bạn cũng có thể đổi tên miền thành github.dev để code trực tiếp trên web `https://github.com/[account]/hoccodeai-excerise`
 
-    ![github-dev](./images/github-dev.jpg)
+   ![github-dev](./images/github-dev.jpg)
 
-## 2. Làm bài và commit
+## 2. Làm bài và commit code
 
 1. Trong thư mục `baitap-submit`, đổi thư mục `ten_cua_ban`, đổi tên thành tên của bạn.
 2. Trong thư mục vừa đổi, sẽ có thư mục tương đương với tên từng bài tập.
