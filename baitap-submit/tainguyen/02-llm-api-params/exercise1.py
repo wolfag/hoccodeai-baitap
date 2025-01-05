@@ -1,5 +1,3 @@
-
-
 import utils
 
 
@@ -10,7 +8,10 @@ def exercise1():
         if question == "e" or question == "q":
             break
 
-        messages=[{"role": "user", "content": question}]
+        messages=[
+            {"role":"system", "content": "You are a guru"},
+            {"role": "user", "content": question}
+        ]
 
         stream = utils.client.chat.completions.create(
             messages=messages,

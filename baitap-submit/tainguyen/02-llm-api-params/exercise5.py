@@ -2,7 +2,7 @@ import utils
 import sys
 
 def exercise5():
-    want = "You are a senior python developer, let resolve this problem, the response should be executable code only, without explanation and without markdown and without```python tag"   
+    want = "Let resolve this problem, the response should be executable code only, without explanation and without markdown and without```python tag"   
     output_file = "./final.py"
 
     while True:
@@ -11,7 +11,10 @@ def exercise5():
             break
     
         question = " ".join([want,":",problem])
-        messages = [{"role": "user", "content": question}]
+        messages = [
+            {"role":"system", "content": "You are a senior python developer"},
+            {"role": "user", "content": question}
+        ]
 
         stream = utils.client.chat.completions.create(
             messages=messages,

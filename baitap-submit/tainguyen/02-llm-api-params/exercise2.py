@@ -1,10 +1,8 @@
-
-
 import utils
 
 
 def exercise1():
-    messages = []
+    messages = [{"role":"system", "content": "You are a guru"},]
     while(True):
         question = utils.require_user_input("Please enter your question: ")
 

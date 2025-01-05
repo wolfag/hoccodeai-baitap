@@ -34,7 +34,10 @@ def exercise3():
             continue
 
         question = " ".join([want,":",content]) 
-        messages = [{"role": "user", "content": question}]
+        messages = [
+            {"role":"system", "content": "You are a guru"},
+            {"role": "user", "content": question}
+        ]
 
         stream = utils.client.chat.completions.create(
             messages=messages,
