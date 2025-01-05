@@ -133,7 +133,32 @@ def exercise4():
 
 
 def exercise5():
-    print("doing")
+    want = "You are a senior python developer, let resolve this problem, the response should be executable code only, without explanation and without markdown and without```python tag"   
+    output_file = "./final.py"
+
+    while True:
+        problem = require_user_input("\nPlease enter your coding question: ")
+        if problem == "0":
+            break
+    
+        question = " ".join([want,":",problem])
+        messages = [{"role": "user", "content": question}]
+
+        stream = client.chat.completions.create(
+            messages=messages,
+            model="gemma2-9b-it",
+            stream=True
+        )
+        print("LLM is thinking...", end="\n\n")
+
+        with open(output_file,"w") as outfile:
+            for chunk in stream:
+                sys.stdout.write(">")
+                sys.stdout.flush()
+                outfile.write(chunk.choices[0].delta.content or "")
+
+            print("\n\n=>Let check '"+output_file+"' for the final code")
+
 
 def main():
     while(True):
@@ -142,6 +167,7 @@ def main():
         print("12. Ask me a question with memory")
         print("3. Summarize a webpage")
         print("4. Translate a file")
+        print("5. Resolve a python problem")
         print("0. Show menu")
         print("e. Exit")
 
