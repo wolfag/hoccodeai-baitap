@@ -1,7 +1,7 @@
 import utils
 
 
-def exercise1():
+def exercise2():
     messages = [{"role":"system", "content": "You are a guru"},]
     while(True):
         question = utils.require_user_input("Please enter your question: ")
@@ -21,5 +21,7 @@ def exercise1():
         for chunk in stream:
             print(chunk.choices[0].delta.content or "", end="")
 
+        messages.append({"role": "system", "content": stream})
 
-exercise1()
+
+exercise2()

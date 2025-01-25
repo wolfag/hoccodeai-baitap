@@ -2,7 +2,7 @@ import utils
 import sys
 
 def exercise5():
-    want = "Let resolve this problem, the response should be executable code only, without explanation and without markdown and without```python tag"   
+    want = "Let resolve this problem, the response should be executable code only, without explanation and without markdown and no ```python tag"   
     output_file = "./final.py"
 
     while True:

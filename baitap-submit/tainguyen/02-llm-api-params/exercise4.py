@@ -3,11 +3,15 @@ import utils
 import os
 
 def translate(text, source_lang, target_lang):
-    want = "Translate the following content from "+source_lang+" into " + target_lang + ". The translated content should be keep the same meaning and style as the original content."
-    question = " ".join([want,":",text])
+    prompt = f"""
+    Translate the following content from {source_lang} into {target_lang}. 
+    The translated content should be keep the same meaning and style as the original content.
+    """
+
+
     messages = [
         {"role":"system", "content": "You are a translator with 10 years experiences in tech domain"},
-        {"role":"user","content":question}
+        {"role":"user","content":prompt}
     ]
 
     chat = utils.client.chat.completions.create(
